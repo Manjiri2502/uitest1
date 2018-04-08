@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Food Recipes</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">	 -->
+<style type="text/css">
+	*,body, html{padding: 0; margin: 0}
+	body{font-family: 'Open Sans', sans-serif;}
+
+	.clearfloat:before,
+	.clearfloat:after {content: '\0020';display: block;overflow: hidden;visibility: hidden;width: 0;height: 0}
+	.clearfloat:after {clear: both}
+	.clearfloat {zoom: 1}
+	.container{width: 1050px; margin: 0px auto}
+
+	.header{background: url(img/bg1.jpg) no-repeat top center; background-size: cover; padding: 25px 10px 50px; text-align: center; color: #ffffff}
+	.header_inn{padding: 0px 10px}
+	.header a{color:  #ffffff}
+	.header_text{padding: 33px 0px} 
+	.btn{background: #ff4800 url(img/btn_darrow.jpg) no-repeat right center; padding: 15px 140px 15px 45px; display: inline-block; font-size: 31px; text-decoration: none; border-radius: 5px; font-weight: 700;}
+	.btn_wp{margin: 60px 0px 30px}
+    
+    .aboutus_sec{background: #ff4800 url(img/aboutus_sec.jpg) no-repeat center center; background-size: 100%; padding: 45px 0px 45px;color: #ffffff}
+    .aboutus_sec h2{margin-bottom: 38px;padding: 0;text-decoration: underline;}
+    .aboutus_sec p{font-size: 15px; line-height: 27px;}
+    
+
+    .leftside{width: 750px;float: left;}
+    .rightside{width: 295px;float: left;}
+    .slider li{display: inline-block;margin-right: 19px;width: 165px}
+    .last{margin-right: 0px}
+    .slider li a{display: block;}
+    .slider li img{}
+    .slider li span{display: block;margin-top: 20px; margin-bottom: 20px}
+
+
+    .categories li{display: block;list-style: none;margin-bottom: 5px}
+
+	.footer {background: black; padding: 10px  0px line-height: 100px; color: white; text-align: center; font-size: 14px; font-weight: bold; } 
+	.footer_inn{display: inline-block;padding: 25px 0px 25px 0}
+	.footer_inn li{display: inline; display: inline; color: #ffffff; font-weight: 400; font-size: 13px;}
+	.footer_inn li a{text-decoration: none; color: #ffffff;}
+	.footer_inn li a:hover{text-decoration: underline;}
+
+    @media screen and (max-width: 1200px){
+    .header{background-size: cover;background-position: left center;}
+    .container{width: 90%}
+    .aboutus_sec h2{text-align: center;}
+    }
+    @media screen and (max-width: 480px){
+    .btn{ padding: 15px 100px 15px 25px; font-size: 25px}
+    }
+</style>	
+</head>
+<body>
+<div class="header">
+	<div class="container">
+	<div class="header_inn">
+	<div class="logo">
+	<img src="img/logo.png" alt="logo">	
+	</div>
+	<h1 class="header_text">Find Delicious Mouth-Watering Recipes</h1>
+	<p class="text">
+		We understand cooking can sometimes be time consuming, especially when you’re not sure if the recipe is going to
+		work. Find a collection of the best tried and tested delicious recipes with this extension. Indulge in some
+		delightful homecooked meals!
+	</p>
+	<div class="btn_wp">
+		<a href="" class="btn">GET RECIPES</a>
+	</div>
+	<p>
+		By clicking on the button you agree to install Jobs extension and have read
+		and agreed to the <a href="">EULA</a>, <a href="">Privacy Policy</a> and <a href="">Endorsement Disclaimer And DMCA Policy</a>
+	</p>
+	</div>
+	</div>
+</div>
+
+<div class="cards_sec">
+<div class="container clearfloat">
+	<div class="leftside">
+		<ul class="slider">
+		<li>			
+			<a href=""><img src="test1.jpg">
+			<span>Spicy Garlic Lime Chicken</span>
+			</a>
+		</li>
+		<li>
+			<a href=""><img src="">
+			<span>Chocalate Chip Cookies</span>
+			</a>
+		</li>
+		<li>
+			<a href=""><img src="">
+			<span>Apple Crisp</span>
+			</a>
+		</li>
+		<li class="last">
+			<a href=""><img src="">
+			<span>Healthy Oats</span>
+			</a>
+		</li>
+	</ul>
+	</div>
+	<div class="rightside">
+		<h2>Related Categories</h2>
+		<ul class="categories">
+			<li class="diet_rec">
+				<a href="">Diet Recipes</a>
+			</li>
+			<li class="tv_rec">
+				<a href="">tv Recipes</a>
+			</li>
+			<li class="salad_rec">
+				<a href="">SALAD Recipes</a>
+			</li>
+			<li class="soup_rec">
+				<a href="">SOUP Recipes</a>
+			</li>
+		</ul>
+	</div>
+</div>		
+</div>
+
+<div class="aboutus_sec">
+	<div class="container">
+		<h2>About Us</h2>
+		<p>
+			We know how tiresome and disappointing it can be when you find a recipe online and follow it to the T, but the food doesn't turn out as good. To tackle that problem, we have accumulated a collection of the best recipes that actually work for every category. Low fat, diet, gluten free, vegetarian. Find recipes for all categories!
+		</p>
+	</div>
+</div>
+
+<div class="footer clearfloat">
+	<div class="container">
+    <ul class="footer_inn">
+    	<li><a href="">About us</a></li>
+    	<li class="vline">|</li>
+    	<li><a href="">Privacy Policy</a></li>
+    	<li class="vline">|</li>
+    	<li><a href="">Terms of Service</a></li>
+    	<li class="vline">|</li>
+    	<li><a href="">Contact Us</a></li>
+    	<li class="vline">|</li>
+    	<li><a href="">Endorsement Disclaimer And DMCA Policy</a></li>
+    	<li class="vline">|</li>
+    	<li><a href="">Uninstall</a></li>
+    </ul>
+    </div>
+</div>
+</body>
+</html>
